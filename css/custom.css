@@ -15,10 +15,6 @@ body {
   height: 230px;
 }
 
-.carder:hover {
-  filter: opacity(50%);
-}
-
 .carder:hover .carder-text {
   bottom: 0;
   height: 100%;
