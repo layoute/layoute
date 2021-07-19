@@ -1,2 +1,0 @@
-# layoute
-trabajo en equipo
