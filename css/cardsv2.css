@@ -1,0 +1,107 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+.cardv2 .card::after {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: 35px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    content: '';
+    z-index: -1;
+}
+.cardv2 a.card {
+    text-decoration: none;
+}
+
+.cardv2 .card {
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+}
+.cardv2 .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.cardv2 .box-shadow {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+}
+
+.cardv2 .ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.cardv2 .mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.cardv2 .rounded-circle {
+    border-radius: 50% !important;
+}
+.cardv2 .bg-white {
+    background-color: #fff !important;
+}
+
+.cardv2 .ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.cardv2 .mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.cardv2 .d-block {
+    display: block !important;
+}
+.cardv2 img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.cardv2 .card-text {
+    padding-top: 12px;
+    color: #8c8c8c;
+}
+
+.cardv2 .text-sm {
+    font-size: 12px !important;
+}
+.cardv2 p, .cardv2 .p {
+    margin: 0 0 16px;
+}
+
+.cardv2 .card-title {
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cardv2 .pt-1, .py-1 {
+    padding-top: .25rem !important;
+}
+
+.cardv2 .head-icon{
+    margin-top:18px;
+    color:#FF4500
+}
